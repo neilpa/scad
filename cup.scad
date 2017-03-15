@@ -1,12 +1,9 @@
 use<donut.scad>
+radius=0.5;
 
-radius = 0.5;
-
+$fn=40;
 module unk(base_dia, top_dia, height) {
-    hull() {
-        translate([0, 0, radius]) donut(base_dia/2, radius);
-        translate([0, 0, radius + height]) donut(top_dia/2, radius);
-    }
+    cylinder(d1=base_dia + radius*2, d2=top_dia + radius*2, h=height);
 }
 
 module cup(base_dia, top_dia, height) {
@@ -17,4 +14,4 @@ module cup(base_dia, top_dia, height) {
     }
 }
 
-cup(4, 5, 10);
+cup(4, 5.5, 10);
