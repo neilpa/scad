@@ -14,4 +14,4 @@ module cup(base_dia, top_dia, height) {
     }
 }
 
-cup(4, 5.5, 10);
+cup(12, 17, 30);
