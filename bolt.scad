@@ -8,7 +8,7 @@ module bolt(radius, length) {
 	}
 
 	head(radius, length * 0.2);
-	shaft(radius * 0.65, length * 0.8);
+	shaft(radius * 0.65, length);
 }
 
 bolt(5, 20);
