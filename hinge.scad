@@ -8,7 +8,7 @@ tolerance=0.3;
 
 module base() {
     cylinder(r=2, h=8);
-    cube([5, 20, 8]);
+    cube([3, 20, 8]);
 }
 
 module male() {
@@ -16,7 +16,7 @@ module male() {
         base();
         translate([0, 0, -10]) {
             cylinder(d=3.3, h=10);
-            translate([0, 3, 0]) cube([5, 17, 10]);
+            translate([0, 3, 0]) cube([3, 17, 10]);
         }
     }
 }
@@ -26,10 +26,11 @@ module female() {
         base();
     }
     tube(outer_dia=4, inner_dia=3.5, height=10);
-    translate([0, -20, 0]) cube([5, 17, 10]);
+    translate([0, -20, 0]) cube([3, 17, 10]);
 }
 
-rotate(a=180, v=[0,1,0]) male();
+
+translate([10, -30, 0]) rotate(a=180, v=[0,1,0]) male();
 female();
 
 }
