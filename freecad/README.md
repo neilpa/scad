@@ -4,7 +4,7 @@ Experimenting with FreeCAD modeling. Starting with the [Learn FreeCAD channel][y
 
 Lessons:
 
- * [ ] Turners Cube
+ * [x] Turners Cube
  * [ ] Whiffle Ball
  * [ ] Casino Dice
  * [ ] Bearing Bracket
