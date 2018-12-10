@@ -1,3 +1,3 @@
-# OpenSCAD experiments
+# CAD Projects
 
-Experimenting with OpenSCAD modeling.
+Experimenting with CAD tools (e.g. OpenScad and FreeCAD)
