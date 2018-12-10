@@ -6,7 +6,7 @@ Lessons:
 
  * [x] Turners Cube
  * [x] Whiffle Ball
- * [ ] Casino Dice
+ * [x] Casino Dice
  * [ ] Bearing Bracket
  * [ ] Fork Bearing
  * [ ] Compression Spring
@@ -33,3 +33,7 @@ On version 0.17 there's the introduction of the "Body" concept. Drawing the tria
         * Symmetric
     * Copied the above extrusion and rotated about the Z-axis 90deg (rather than redrawing)
     * Then performed the cut on the holed-box with the extruded pieces
+
+# Lesson 3: Casino Dice
+
+The intersection of a cube and sphere with circle sketches on faces adn pocktes for "pips" (dots).
