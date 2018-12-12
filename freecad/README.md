@@ -37,3 +37,7 @@ On version 0.17 there's the introduction of the "Body" concept. Drawing the tria
 # Lesson 3: Casino Dice
 
 The intersection of a cube and sphere with circle sketches on faces adn pocktes for "pips" (dots).
+
+# Lesson 4: Bearing Bracket
+
+One takeway was the turning on all the check and refine model settings under `Preferrences | Part Design | General | Model Settings`
